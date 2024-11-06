@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: rgb(54, 53, 53);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+  border-radius: 8px;
+  padding: 3px;
+  max-width: 200px;
+}
+
+.resultsContainer {
+  margin-top: 1px;
+  border-radius: 8px;
+  background-color: black;
+  max-width: 200px;
+}
+
+.resultsContainer div {
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.resultsContainer div:hover {
+  background-color: #3c3c3c;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detailsContainer p {
+  border: 1px solid white;
+  padding: 1rem;
+  background-color: black;
+  display: flex;
+  gap: 1rem;
+}
+
+.detailsContainer div {
+  margin-bottom: 2rem;
+}
+
+.property {
+  color: green;
+}
+
+.value {
+  color: blue;
+}
+
+.detailsContainer h2 {
+}
+
+.lastVisitedContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+  max-width: 500px;
+  gap: 10px;
+}
+
+.lastVisitedContainer div {
+  flex-grow: 1;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.lastVisitedContainer div:hover {
+  background-color: #3c3c3c;
+}
