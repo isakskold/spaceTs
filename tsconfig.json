@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es6", // Use ES6 for modern JavaScript features.
-    "lib": ["dom", "es2016"],
+    "target": "es6", // Prefer es6 over commonjs
+    "lib": ["dom", "es2016"], // An array method did not work, had to include this for it to work
     "module": "es6", // Enable ES6 module syntax.
-    "outDir": "./dist", // Output compiled files to the "dist" folder.
-    "rootDir": "./src", // Define the root source folder.
+    "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true, // Enable strict type checking.
-    "esModuleInterop": true, // Simplifies importing CommonJS modules if needed.
-    "forceConsistentCasingInFileNames": true, // Avoid case-sensitivity issues in imports.
-    "skipLibCheck": true // Speeds up compilation by skipping .d.ts checks.
+    "forceConsistentCasingInFileNames": true // Avoid case-sensitivity issues in imports.
   },
   "include": ["src/**/*.ts"] // Include all TypeScript files in "src" folder.
 }
